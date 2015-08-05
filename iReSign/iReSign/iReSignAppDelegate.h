@@ -25,8 +25,6 @@
     NSTask *zipTask;
     NSString *sourcePath;
     NSString *appPath;
-    NSString *frameworksDirPath;
-    NSString *frameworkPath;
     NSString *workingPath;
     NSString *appName;
     NSString *fileName;
@@ -34,9 +32,6 @@
     NSString *entitlementsResult;
     NSString *codesigningResult;
     NSString *verificationResult;
-    
-    NSMutableArray *frameworks;
-    Boolean hasFrameworks;
     
     IBOutlet IRTextFieldDrag *pathField;
     IBOutlet IRTextFieldDrag *provisioningPathField;
